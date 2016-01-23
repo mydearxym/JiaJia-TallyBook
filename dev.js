@@ -31,9 +31,6 @@ var clientBundleLink = path.join(dirs.meteor, 'client/client.bundle.min.js');
 var loadClientBundleHtml = path.join(dirs.webpack, 'loadClientBundle.html');
 var loadClientBundleLink = path.join(dirs.meteor, 'client/loadClientBundle.html');
 
-console.log('>>>>>>>>>>> loadClientBundleHtml', loadClientBundleHtml)
-console.log('>>>>>>>>>>> loadClientBundleLink', loadClientBundleLink)
-
 var requireServerBundleJs = path.join(dirs.meteor, 'server/require.server.bundle.js');
 
 require('./core-js-custom-build');
